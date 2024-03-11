@@ -1,7 +1,14 @@
-export default function Home() {
+import React from "react";
+
+const page = () => {
   return (
-    <main className="flex flex-col items-center justify-between p-24">
-      <p>리액트 프로젝트</p>
-    </main>
+    <div>
+      HomePage
+      <div>
+        <h1>4가지 렌더링 방식을 테스트합니다.</h1>
+      </div>
+    </div>
   );
-}
+};
+
+export default page;
