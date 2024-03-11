@@ -7,6 +7,7 @@ const ISR = async () => {
 
   const { fact } = await response.json();
   const catsFacts = fact;
+
   return <div>{catsFacts}</div>;
 };
 
