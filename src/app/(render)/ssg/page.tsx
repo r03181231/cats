@@ -1,7 +1,11 @@
-import React from "react";
+const ISR = async () => {
+  const response = await fetch("https://catfact.ninja/fact", {
+    cache: "force-cache",
+  });
+  const { fact } = await response.json();
+  const catsFacts = fact;
 
-const SSG = () => {
-  return <div>SSG</div>;
+  return <div>{catsFacts}</div>;
 };
 
-export default SSG;
+export default ISR;
