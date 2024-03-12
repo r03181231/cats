@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="ko">
       <body className={inter.className}>
         <p className="flex justify-center w-[100%] p-4 shadow-lg shadow-cyan-500/10 ">
-          고양이에 대한 모든 것
+          고양이에 대한 모든 것 뭐냥?????????
         </p>
         <nav className="flex justify-center">
           <div className="flex">
