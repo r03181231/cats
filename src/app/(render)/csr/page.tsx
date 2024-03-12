@@ -1,4 +1,5 @@
 "use client";
+import { catFact } from "@/types/type";
 import React, { useEffect, useState } from "react";
 
 const CSR = () => {
