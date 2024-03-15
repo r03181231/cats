@@ -1,4 +1,4 @@
-const ISR = async () => {
+const SSG = async () => {
   const response = await fetch("https://catfact.ninja/fact", {
     cache: "force-cache",
   });
@@ -8,4 +8,4 @@ const ISR = async () => {
   return <div>{catsFacts}</div>;
 };
 
-export default ISR;
+export default SSG;
